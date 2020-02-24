@@ -169,7 +169,8 @@ void report_feedback_message(uint8_t message_code)
 // Welcome message
 void report_init_message()
 {
-  printPgmString(PSTR("\r\nGrbl " GRBL_VERSION ": LongMill build ['$' for help] (Oct 21, 2019)\r\n"));
+  printPgmString(PSTR("\r\nGrbl " GRBL_VERSION " ['$' for help] LongMill build Feb 25, 2020 \r\n"));
+ 
 }
 
 // Grbl help message

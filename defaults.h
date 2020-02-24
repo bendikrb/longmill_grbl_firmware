@@ -70,7 +70,7 @@
   #define DEFAULT_X_STEPS_PER_MM 200.0
   #define DEFAULT_Y_STEPS_PER_MM 200.0
   #define DEFAULT_Z_STEPS_PER_MM 200.0
-  #define DEFAULT_X_MAX_RATE 5000.0 // mm/min
+  #define DEFAULT_X_MAX_RATE 4000.0 // mm/min updated Dec 17, 2019 from 5000.0
   #define DEFAULT_Y_MAX_RATE 4000.0 // mm/min
   #define DEFAULT_Z_MAX_RATE 3000.0 // mm/min
   #define DEFAULT_X_ACCELERATION (750.0*60*60) // 750*60*60 mm/min^2 = 750 mm/sec^2
